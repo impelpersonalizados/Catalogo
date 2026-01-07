@@ -2,90 +2,75 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Catálogo | Impel Personalizados</title>
+  <title>Impel Personalizados</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f2f2f2;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg,#f2f2f2,#ffffff);
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
+      padding: 50px 20px;
     }
 
-    .container {
-      background: #ffffff;
-      max-width: 420px;
-      width: 90%;
-      padding: 30px;
-      border-radius: 16px;
+    header {
       text-align: center;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
     }
 
-    h1 {
-      margin-bottom: 10px;
-      font-size: 26px;
+    header h1 {
+      font-size: 36px;
+      color: #222;
     }
 
-    p {
-      color: #555;
-      font-size: 16px;
-    }
-
-    a.button {
-      display: block;
-      margin-top: 25px;
-      padding: 16px;
-      background: #000000;
-      color: #ffffff;
-      text-decoration: none;
+    header p {
       font-size: 18px;
+      color: #555;
+    }
+
+    .catalogo-button {
+      padding: 18px 30px;
+      background: #000;
+      color: #fff;
+      font-size: 20px;
       font-weight: bold;
-      border-radius: 10px;
+      text-decoration: none;
+      border-radius: 12px;
       transition: background 0.3s;
-    }
-
-    a.button:hover {
-      background: #333333;
-    }
-
-    .info {
       margin-top: 20px;
-      font-size: 13px;
+    }
+
+    .catalogo-button:hover {
+      background: #333;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
       color: #777;
+      text-align: center;
     }
   </style>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRVMB499MB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-MRVMB499MB');
-  </script>
-
 </head>
-
 <body>
 
-  <div class="container">
-    <h1>📘 Catálogo</h1>
-    <p>Confira nossos produtos personalizados</p>
+  <header>
+    <h1>📘 Impel Personalizados</h1>
+    <p>Confira nossos produtos e catálogos exclusivos</p>
+    <a class="catalogo-button" href="catalogo.pdf" target="_blank">Ver Catálogo</a>
+  </header>
 
-    <a class="button" href="catalogo.pdf" target="_blank">
-      👉 Ver Catálogo
-    </a>
-
-    <div class="info">
-      Se abrir dentro do Instagram, toque nos três pontinhos (⋮) e escolha <b>“Abrir no navegador”</b>.
-    </div>
-  </div>
+  <footer>
+    Se abrir no Instagram, toque nos três pontinhos (⋮) e escolha <b>“Abrir no navegador”</b>.
+  </footer>
 
 </body>
 </html>
