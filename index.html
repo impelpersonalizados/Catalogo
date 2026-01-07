@@ -2,75 +2,119 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Impel Personalizados</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+  <title>Impel Personalizados</title>
   <style>
-    body {
+    /* Reset básico */
+    * {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(135deg,#f2f2f2,#ffffff);
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: #f5f0ff; /* tom suave da sua cor */
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      justify-content: flex-start;
       min-height: 100vh;
-      padding: 50px 20px;
+      padding: 20px;
     }
 
-    header {
+    .container {
+      background: #fff;
+      max-width: 420px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px;
       text-align: center;
-      margin-bottom: 40px;
     }
 
-    header h1 {
-      font-size: 36px;
-      color: #222;
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #b389fd;
+      margin-bottom: 10px;
     }
 
-    header p {
-      font-size: 18px;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    p {
+      font-size: 16px;
       color: #555;
+      margin-bottom: 25px;
     }
 
-    .catalogo-button {
-      padding: 18px 30px;
-      background: #000;
-      color: #fff;
-      font-size: 20px;
+    .buttons a {
+      display: block;
+      margin: 12px 0;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 18px;
       font-weight: bold;
       text-decoration: none;
-      border-radius: 12px;
-      transition: background 0.3s;
+      color: #fff;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .buttons a:hover {
+      transform: scale(1.05);
+    }
+
+    /* Botões customizados */
+    .btn-whatsapp {
+      background: #25D366;
+    }
+
+    .btn-catalogo {
+      background: #b389fd;
+    }
+
+    .btn-instagram {
+      background: #000;
+    }
+
+    .info {
       margin-top: 20px;
-    }
-
-    .catalogo-button:hover {
-      background: #333;
-    }
-
-    footer {
-      margin-top: 60px;
-      font-size: 14px;
+      font-size: 13px;
       color: #777;
-      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px;
+      }
+
+      .buttons a {
+        font-size: 16px;
+        padding: 12px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>📘 Impel Personalizados</h1>
-    <p>Confira nossos produtos e catálogos exclusivos</p>
-    <a class="catalogo-button" href="catalogo.pdf" target="_blank">Ver Catálogo</a>
-  </header>
+  <div class="container">
+    <div class="logo">Impel</div>
+    <h1>Produtos Personalizados</h1>
+    <p>Confira nossos produtos e entre em contato conosco!</p>
 
-  <footer>
-    Se abrir no Instagram, toque nos três pontinhos (⋮) e escolha <b>“Abrir no navegador”</b>.
-  </footer>
+    <div class="buttons">
+      <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5574999641627" target="_blank">💬 WhatsApp</a>
+      <a class="btn-catalogo" href="https://impelpersonalizados.github.io/Catalogo/catalogo.pdf" target="_blank">📘 Ver Catálogo</a>
+      <a class="btn-instagram" href="https://www.instagram.com/impel_personalizados/" target="_blank">📸 Instagram</a>
+    </div>
+
+    <div class="info">
+      Se abrir dentro do Instagram, toque nos três pontinhos (⋮) e escolha <b>“Abrir no navegador”</b>.
+    </div>
+  </div>
 
 </body>
 </html>
