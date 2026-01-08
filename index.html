@@ -47,7 +47,15 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
       padding: 30px;
       text-align: center;
+
+      animation: flutuar 3s ease-in-out infinite;
+
     }
+
+    .container:hover {
+      animation-play-state: paused;
+    }
+
 
     /* ===============================
        LOGO
@@ -140,6 +148,19 @@
         padding: 12px;
       }
     }
+
+    @keyframes flutuar {
+     0% {
+      transform: translateY(0);
+     }
+     50% {
+      transform: translateY(-8px);
+     }
+     100% {
+      transform: translateY(0);
+    }
+  }
+
   </style>
 </head>
 
