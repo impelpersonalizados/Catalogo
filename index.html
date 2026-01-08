@@ -1,56 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- Define o padrão de caracteres (acentos, ç etc.) -->
   <meta charset="UTF-8">
+
+  <!-- Faz o site se adaptar ao celular -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparece na aba do navegador -->
   <title>Impel Personalizados</title>
+
   <style>
-    /* Reset básico */
+    /* ===============================
+       RESET BÁSICO
+       Remove margens padrões do navegador
+    =============================== */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Arial', sans-serif;
+      font-family: Arial, sans-serif;
     }
 
+    /* ===============================
+       FUNDO DA PÁGINA
+       Centraliza o conteúdo na tela
+    =============================== */
     body {
-      background: #f5f0ff; /* tom suave da sua cor */
+      background: #b389fd; /* cor de fundo */
       display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
+      justify-content: center; /* centraliza na horizontal */
+      align-items: center;     /* centraliza na vertical */
+      min-height: 100vh;       /* ocupa a tela inteira */
       padding: 20px;
     }
 
+    /* ===============================
+       CONTAINER PRINCIPAL
+       "Caixa branca" do conteúdo
+    =============================== */
     .container {
       background: #fff;
-      max-width: 420px;
+      max-width: 420px;   /* largura máxima */
       width: 100%;
-      border-radius: 16px;
+      border-radius: 16px; /* cantos arredondados */
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
       padding: 30px;
       text-align: center;
     }
 
+    /* ===============================
+       LOGO
+       Centraliza a imagem da logo
+    =============================== */
     .logo {
-      font-size: 32px;
-      font-weight: bold;
-      color: #b389fd;
-      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
     }
 
+    /* Controla SOMENTE o tamanho da logo */
+    .logo img {
+      height: 80px;   /* ajuste o tamanho aqui */
+      width: auto;    /* mantém a proporção */
+    }
+
+    /* ===============================
+       TÍTULO
+    =============================== */
     h1 {
-      font-size: 24px;
+      font-size: 18px;
       margin-bottom: 10px;
       color: #000;
     }
 
+    /* ===============================
+       TEXTO DESCRITIVO
+    =============================== */
     p {
       font-size: 16px;
       color: #555;
       margin-bottom: 25px;
     }
 
+    /* ===============================
+       BOTÕES (BASE)
+    =============================== */
     .buttons a {
       display: block;
       margin: 12px 0;
@@ -60,14 +95,17 @@
       font-weight: bold;
       text-decoration: none;
       color: #fff;
-      transition: transform 0.2s, background 0.3s;
+      transition: transform 0.2s;
     }
 
+    /* Efeito ao passar o mouse */
     .buttons a:hover {
       transform: scale(1.05);
     }
 
-    /* Botões customizados */
+    /* ===============================
+       CORES DOS BOTÕES
+    =============================== */
     .btn-whatsapp {
       background: #25D366;
     }
@@ -80,12 +118,18 @@
       background: #000;
     }
 
+    /* ===============================
+       TEXTO INFORMATIVO FINAL
+    =============================== */
     .info {
       margin-top: 20px;
       font-size: 13px;
       color: #777;
     }
 
+    /* ===============================
+       AJUSTES PARA CELULAR
+    =============================== */
     @media (max-width: 480px) {
       .container {
         padding: 20px;
@@ -98,22 +142,44 @@
     }
   </style>
 </head>
+
 <body>
 
+  <!-- CONTAINER PRINCIPAL -->
   <div class="container">
-    <div class="logo">Impel</div>
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="logo.png" alt="Impel Personalizados">
+    </div>
+
+    <!-- TÍTULO -->
     <h1>Produtos Personalizados</h1>
+
+    <!-- DESCRIÇÃO -->
     <p>Confira nossos produtos e entre em contato conosco!</p>
 
+    <!-- BOTÕES -->
     <div class="buttons">
-      <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5574999641627" target="_blank">💬 WhatsApp</a>
-      <a class="btn-catalogo" href="https://impelpersonalizados.github.io/Catalogo/catalogo.pdf" target="_blank">📘 Ver Catálogo</a>
-      <a class="btn-instagram" href="https://www.instagram.com/impel_personalizados/" target="_blank">📸 Instagram</a>
+      <a class="btn-whatsapp"
+         href="https://api.whatsapp.com/send?phone=5574999641627&text=Digite%20aqui%20o%20seu%20produto"
+         target="_blank">💬 WhatsApp</a>
+
+      <a class="btn-catalogo"
+         href="https://impelpersonalizados.github.io/Catalogo/catalogo.pdf"
+         target="_blank">📘 Ver Catálogo</a>
+
+      <a class="btn-instagram"
+         href="https://www.instagram.com/impel_personalizados/"
+         target="_blank">📸 Instagram</a>
     </div>
 
+    <!-- AVISO -->
     <div class="info">
-      Se abrir dentro do Instagram, toque nos três pontinhos (⋮) e escolha <b>“Abrir no navegador”</b>.
+      Se abrir dentro do Instagram, toque nos três pontinhos (⋮) e escolha
+      <b>“Abrir no navegador”</b>.
     </div>
+
   </div>
 
 </body>
