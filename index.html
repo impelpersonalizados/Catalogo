@@ -37,15 +37,58 @@
                 </span>
                 <!--Impel Personalizados-->
             </a>
-            <ul class="nav-links" id="navLinks">
 
-                <li>
-                    <a href="#" onclick="filtrarCategoria('todos'); fecharMenuCategorias(event)">
-                        Todos
-                    </a>
-                </li>
+            
 
-            </ul>
+<ul class="nav-links" id="navLinks">
+
+    <li>
+        <a href="#" onclick="filtrarCategoria('todos'); fecharMenuCategorias(event)">
+            Todos
+        </a>
+    </li>
+
+    
+    <li>
+        <a href="#" onclick="filtrarCategoria('copos'); fecharMenuCategorias(event)">
+            Copos
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="filtrarCategoria('quadros e placas'); fecharMenuCategorias(event)">
+            Quadros e Placas
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="filtrarCategoria('cadernos e blocos'); fecharMenuCategorias(event)">
+            Cadernos e Blocos
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="filtrarCategoria('textil'); fecharMenuCategorias(event)">
+            Textil
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="filtrarCategoria('chaveiros'); fecharMenuCategorias(event)">
+            Chaveiros
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="filtrarCategoria('kits e presentes'); fecharMenuCategorias(event)">
+            Kits e Presentes
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="filtrarCategoria('embalagens'); fecharMenuCategorias(event)">
+            Embalagens
+        </a>
+    </li>
+
+</ul>
+
+
+
             <div class="nav-cta" id="navSearchArea">
                 <div class="busca-wrapper busca-nav" id="buscaNav">
                     <div class="busca-box">
@@ -53,6 +96,14 @@
                         <button class="btn-abrir-filtro" onclick="abrirFiltro()">
                             <span class="texto-filtro">Filtros</span>
                         </button>
+
+                        <div id="tooltipFiltro" class="tooltip-filtro" onclick="fecharTooltipFiltro()">
+                            <div class="tooltip-filtro-box" onclick="event.stopPropagation()">
+                                <span class="tooltip-filtro-close" onclick="fecharTooltipFiltro()">×</span>
+                                <p>É aqui que você filtra os produtos. Clique na seta para abrir as opções.</p>
+                            </div>
+                            <span class="tooltip-filtro-arrow"></span>
+                        </div>
 
                         <input type="text" id="buscarProdutoNav" placeholder="O que você procura?">
 
@@ -120,7 +171,19 @@
 
 
 
-                <!-- BANNERS CEL AQUI -->
+                
+
+
+
+
+
+
+
+
+
+<img src="bannercel/WhatsApp Image 2026-06-01 at 15.35.13.jpeg" alt="Banner Mobile Impel">
+
+<!-- BANNERS CEL AQUI -->
 
             </div>
 
@@ -302,9 +365,12 @@
 
 
 
+
+
                 
 
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneca%20com%20al%C3%A7a%20e%20interior%20colorido" target="_blank" class="produto-link" data-categoria="copos" data-descricao="cerâmica 325ml">
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneca%20Al%C3%A7a%20Soft%20-%20325ml%20-%20Rosa" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="copos" data-descricao="cerâmica 325ml">
      <div class="produto">
 
         
@@ -315,7 +381,7 @@
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/WhatsApp Image 2026-05-05 at 14.22.15.jpeg" alt="Caneca com alça e interior colorido">
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 14.22.15.jpeg" alt="Caneca Alça Soft - 325ml - Rosa">
         
     </div>
 
@@ -329,7 +395,7 @@
 
 <div class="produto-info">
 
-            <h3>Caneca com alça e interior colorido</h3>
+            <h3>Caneca Alça Soft - 325ml - Rosa</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -350,7 +416,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -360,545 +426,557 @@
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneca%20branca" target="_blank"
-                    class="produto-link" data-descricao="ceramica 325ml" data-categoria="copos">
-                    <div class="produto">
 
 
 
-                        <div class="produto-favorito">♡</div>
+                
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 14.22.15 (1).jpeg">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneca%20de%20Cer%C3%A2mica%20Branca%20-%20325ml" target="_blank" class="produto-link" data-categoria="copos" data-descricao="ceramica 325ml" data-indisponivel="false">
+     <div class="produto">
 
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 14.22.15 (1).jpeg" alt="Caneca branca">
+        
 
+<div class="produto-favorito">♡</div>
 
-                            <div class="produto-bolinhas">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 14.22.15 (1).jpeg">
 
-                                <span class="produto-bolinha ativa"></span>
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 14.22.15 (1).jpeg" alt="Caneca de Cerâmica Branca - 325ml">
+        
+    </div>
 
-                            </div>
-                        </div>
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
-                        <div class="produto-info">
+<div class="produto-info">
 
-                            <h3>Caneca branca</h3>
+            <h3>Caneca de Cerâmica Branca - 325ml</h3>
 
-                            <div class="produto-stars">★★★★★</div>
+            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    39
-                                    <span class="centavos">,00</span>
-                                </span>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        39
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                            </div>
+           
 
+           
 
+            
 
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
-                            <span class="btn-comprar">Comprar</span>
+    </div>
+</a>
 
-                        </div>
 
-                    </div>
-                </a>
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Xicara" target="_blank"
-                    class="produto-link" data-descricao="cerâmica 150ml" data-categoria="todos">
-                    <div class="produto">
+                
 
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Xicara%20de%20Cer%C3%A2mica%20Branca%20-%20190ml" target="_blank" class="produto-link" data-categoria="copos" data-descricao="cerâmica 150ml" data-indisponivel="false">
+     <div class="produto">
 
+        
 
-                        <div class="produto-favorito">♡</div>
+<div class="produto-favorito">♡</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-07-26 at 08.37.10.jpg">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-07-26 at 08.37.10.jpg">
 
-                            <img src="thumbs/WhatsApp Image 2025-07-26 at 08.37.10.jpg" alt="Xicara">
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-07-26 at 08.37.10.jpg" alt="Xicara de Cerâmica Branca - 190ml">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                            <div class="produto-bolinhas">
+</div>
 
-                                <span class="produto-bolinha ativa"></span>
+<div class="produto-info">
 
-                            </div>
-                        </div>
+            <h3>Xicara de Cerâmica Branca - 190ml</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
-                        <div class="produto-info">
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        40
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                            <h3>Xicara</h3>
+           
 
-                            <div class="produto-stars">★★★★★</div>
+           
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    40
-                                    <span class="centavos">,00</span>
-                                </span>
+            
 
-                            </div>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
+    </div>
+</a>
 
 
 
-                            <span class="btn-comprar">Comprar</span>
 
-                        </div>
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Copo%20T%C3%A9rmico%20Cuia%20Inox%20350mL%20com%20Tampa%20%E2%80%93%20Personalizado%20a%20Laser" target="_blank" class="produto-link" data-categoria="copos" data-descricao="Aço inox" data-indisponivel="false">
+     <div class="produto">
 
-                    </div>
-                </a>
+        
 
+<div class="produto-favorito">♡</div>
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Copo%20cuia" target="_blank"
-                    class="produto-link" data-descricao="Aço inox" data-categoria="todos">
-                    <div class="produto">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-10-28 at 14.32.16.jpg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-10-28 at 14.32.16.jpg" alt="Copo Térmico Cuia Inox 350mL com Tampa – Personalizado a Laser">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                        <div class="produto-favorito">♡</div>
+</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-10-28 at 14.32.16.jpg">
+<div class="produto-info">
 
-                            <img src="thumbs/WhatsApp Image 2025-10-28 at 14.32.16.jpg" alt="Copo cuia">
+            <h3>Copo Térmico Cuia Inox 350mL com Tampa – Personalizado a Laser</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-bolinhas">
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        40
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                                <span class="produto-bolinha ativa"></span>
+           
 
-                            </div>
-                        </div>
+           
 
+            
 
-                        <div class="produto-info">
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
-                            <h3>Copo cuia</h3>
+        </div>
 
-                            <div class="produto-stars">★★★★★</div>
+    </div>
+</a>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    40
-                                    <span class="centavos">,00</span>
-                                </span>
 
-                            </div>
 
+                
 
+<a href="#" target="" class="produto-link" data-indisponivel="true" data-categoria="copos" data-descricao="">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
-                            <span class="btn-comprar">Comprar</span>
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-08-15 at 17.50.48.jpeg">
 
-                        </div>
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-08-15 at 17.50.48.jpeg" alt="Copo Térmico Com Tampa Abridor - 473ml">
+        
+    </div>
 
-                    </div>
-                </a>
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Copo%20cerveja" target="_blank"
-                    class="produto-link" data-descricao="" data-categoria="copos">
-                    <div class="produto">
+<div class="produto-info">
 
+            <h3>Copo Térmico Com Tampa Abridor - 473ml</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
-                        <div class="produto-favorito">♡</div>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        40
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-08-15 at 17.50.48.jpeg">
+           
 
-                            <img src="thumbs/WhatsApp Image 2025-08-15 at 17.50.48.jpeg" alt="Copo cerveja">
+           
 
+            
 
-                            <div class="produto-bolinhas">
+            <span class="btn-indisponivel">Indisponível</span>
 
-                                <span class="produto-bolinha ativa"></span>
+        </div>
 
-                            </div>
-                        </div>
+    </div>
+</a>
 
 
-                        <div class="produto-info">
 
-                            <h3>Copo cerveja</h3>
 
-                            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    40
-                                    <span class="centavos">,00</span>
-                                </span>
 
-                            </div>
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Quadro%20cer%C3%A2mico%2020x20cm%20(Azulejo)" target="_blank" class="produto-link" data-categoria="copos" data-descricao="" data-indisponivel="false">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
+<div class="produto-galeria" data-imagens="1746124754567.jpg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/1746124754567.jpg" alt="Quadro cerâmico 20x20cm (Azulejo)">
+        
+    </div>
 
-                            <span class="btn-comprar">Comprar</span>
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                        </div>
+</div>
 
-                    </div>
-                </a>
+<div class="produto-info">
 
+            <h3>Quadro cerâmico 20x20cm (Azulejo)</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        33
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Quadro%20cer%C3%A2mico%20(Azulejo)"
-                    target="_blank" class="produto-link" data-categoria="copos" data-descricao="">
-                    <div class="produto">
+           
 
+           
 
+            
 
-                        <div class="produto-favorito">♡</div>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
-                        <div class="produto-galeria" data-imagens="1746124754567.jpg">
+        </div>
 
-                            <img src="thumbs/1746124754567.jpg" alt="Quadro cerâmico (Azulejo)">
+    </div>
+</a>
 
 
-                            <div class="produto-bolinhas">
 
-                                <span class="produto-bolinha ativa"></span>
 
-                            </div>
-                        </div>
 
 
-                        <div class="produto-info">
 
-                            <h3>Quadro cerâmico (Azulejo)</h3>
 
-                            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20Decorativa%20MDF%20Cru%2019x27cm%20Gravada%20a%20Laser" target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="mdf" data-indisponivel="false">
+     <div class="produto">
 
-                                    33
-                                    <span class="centavos">,00</span>
+        
 
-                                </span>
+<div class="produto-favorito">♡</div>
 
-                            </div>
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-01 at 17.14.46.jpg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-09-01 at 17.14.46.jpg" alt="Placa Decorativa MDF Cru 19x27cm Gravada a Laser">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
+<div class="produto-info">
 
+            <h3>Placa Decorativa MDF Cru 19x27cm Gravada a Laser</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
-                            <span class="btn-comprar">Comprar</span>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        25
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                        </div>
+           
 
-                    </div>
-                </a>
+           
 
+            
 
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
+    </div>
+</a>
 
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%2019x27%20gravada%20MDF%20cru"
-                    target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="mdf">
-                    <div class="produto">
 
 
 
-                        <div class="produto-favorito">♡</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-01 at 17.14.46.jpg">
 
-                            <img src="thumbs/WhatsApp Image 2025-09-01 at 17.14.46.jpg"
-                                alt="Placa 19x27 gravada MDF cru">
 
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20QR%20Code%20PIX%20MDF%20Branco%20-%2014x10cm" target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="" data-indisponivel="false">
+     <div class="produto">
 
-                            <div class="produto-bolinhas">
+        
 
-                                <span class="produto-bolinha ativa"></span>
+<div class="produto-favorito">♡</div>
 
-                            </div>
-                        </div>
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-06 at 13.04.14.jpeg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-09-06 at 13.04.14.jpeg" alt="Placa QR Code PIX MDF Branco - 14x10cm">
+        
+    </div>
 
-                        <div class="produto-info">
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                            <h3>Placa 19x27 gravada MDF cru</h3>
+</div>
 
-                            <div class="produto-stars">★★★★★</div>
+<div class="produto-info">
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
+            <h3>Placa QR Code PIX MDF Branco - 14x10cm</h3>
 
-                                    25
-                                    <span class="centavos">,00</span>
+            <div class="produto-stars">★★★★★</div>
 
-                                </span>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        19
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                            </div>
+           
 
+           
 
+            
 
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
+    </div>
+</a>
 
 
-                            <span class="btn-comprar">Comprar</span>
 
-                        </div>
 
-                    </div>
-                </a>
 
 
 
 
 
+                
 
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20pix%20mdf%20branco%2C%2014x10cm"
-                    target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="">
-                    <div class="produto">
 
 
 
-                        <div class="produto-favorito">♡</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-06 at 13.04.14.jpeg">
 
-                            <img src="thumbs/WhatsApp Image 2025-09-06 at 13.04.14.jpeg"
-                                alt="Placa pix mdf branco, 14x10cm">
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20Pix%20QR%20Code%20MDF%20Branco%209x15%2C5cm" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="quadros e placas" data-descricao="">
+     <div class="produto">
 
+        
 
-                            <div class="produto-bolinhas">
+<div class="produto-favorito">♡</div>
 
-                                <span class="produto-bolinha ativa"></span>
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 15.07.53.jpeg">
 
-                            </div>
-                        </div>
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 15.07.53.jpeg" alt="Placa Pix QR Code MDF Branco 9x15,5cm">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                        <div class="produto-info">
+</div>
 
-                            <h3>Placa pix mdf branco, 14x10cm</h3>
+<div class="produto-info">
 
-                            <div class="produto-stars">★★★★★</div>
+            <h3>Placa Pix QR Code MDF Branco 9x15,5cm</h3>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
+            <div class="produto-stars">★★★★★</div>
 
-                                    19
-                                    <span class="centavos">,00</span>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        10
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                                </span>
+           
 
-                            </div>
+           
 
+            
 
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
+    </div>
+</a>
 
 
 
-                            <span class="btn-comprar">Comprar</span>
 
-                        </div>
 
-                    </div>
-                </a>
 
 
 
 
 
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20Pix%2C%20Wi-Fi%20e%20Instagram%20Personalizada%2026%2C5x18cm" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="quadros e placas" data-descricao="">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Trof%C3%A9u%20mdf%20branco"
-                    target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="homenagem">
-                    <div class="produto">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 15.19.30.jpeg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 15.19.30.jpeg" alt="Placa Pix, Wi-Fi e Instagram Personalizada 26,5x18cm">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                        <div class="produto-favorito">♡</div>
+</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-13 at 10.49.04.jpeg">
+<div class="produto-info">
 
-                            <img src="thumbs/WhatsApp Image 2025-09-13 at 10.49.04.jpeg" alt="Troféu mdf branco">
+            <h3>Placa Pix, Wi-Fi e Instagram Personalizada 26,5x18cm</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-bolinhas">
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        65
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                                <span class="produto-bolinha ativa"></span>
+           
 
-                            </div>
-                        </div>
+           
 
+            
 
-                        <div class="produto-info">
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
-                            <h3>Troféu mdf branco</h3>
+        </div>
 
-                            <div class="produto-stars">★★★★★</div>
+    </div>
+</a>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
 
-                                    23
-                                    <span class="centavos">,00</span>
 
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-
-
-
-
-
-
-
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20pix%20mdf%20branco"
-                    target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 15.07.53.jpeg">
-
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 15.07.53.jpeg" alt="Placa pix mdf branco">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Placa pix mdf branco</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-
-                                    10
-                                    <span class="centavos">,00</span>
-
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-
-
-
-
-
-
-
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20pix%2C%20wifi%20e%20insta."
-                    target="_blank" class="produto-link" data-categoria="quadros e placas" data-descricao="">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 15.19.30.jpeg">
-
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 15.19.30.jpeg" alt="Placa pix, wifi e insta.">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Placa pix, wifi e insta.</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-
-                                    65
-                                    <span class="centavos">,00</span>
-
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
 
 
 
@@ -912,7 +990,7 @@
 
                 
 
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Agenda%20A5%20tradicional%201DPP" target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Agenda%20A5%20Tradicional%201%20Dia%20por%20P%C3%A1gina" target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="" data-indisponivel="false">
      <div class="produto">
 
         
@@ -923,9 +1001,9 @@
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/WhatsApp Image 2025-11-12 at 06.34.45 (1).jpeg" alt="Agenda A5 tradicional 1DPP">
+            <img src="thumbs/WhatsApp Image 2025-11-12 at 06.34.45 (1).jpeg" alt="Agenda A5 Tradicional 1 Dia por Página">
         
-            <img src="thumbs/WhatsApp Image 2025-11-12 at 06.34.45 (2).jpeg" alt="Agenda A5 tradicional 1DPP">
+            <img src="thumbs/WhatsApp Image 2025-11-12 at 06.34.45 (2).jpeg" alt="Agenda A5 Tradicional 1 Dia por Página">
         
     </div>
 
@@ -941,7 +1019,7 @@
 
 <div class="produto-info">
 
-            <h3>Agenda A5 tradicional 1DPP</h3>
+            <h3>Agenda A5 Tradicional 1 Dia por Página</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -962,7 +1040,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -981,21 +1059,93 @@
 
 
 
+
+
+
+                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Agendamento" target="_blank"
+                    class="produto-link" data-categoria="cadernos e blocos"
+                    data-descricao="caderno agenda salão manicure" data-indisponivel="false">
+                    <div class="produto">
+
+
+
+                        <div class="produto-favorito">♡</div>
+
+                        <div class="produto-galeria"
+                            data-imagens="WhatsApp Image 2025-11-12 at 06.34.46 (1).jpeg|WhatsApp Image 2025-11-12 at 06.35.16 (1).jpeg">
+
+                            <div class="produto-galeria-imagens">
+
+                                <img src="thumbs/WhatsApp Image 2025-11-12 at 06.34.46 (1).jpeg" alt="Agendamento">
+
+                                <img src="thumbs/WhatsApp Image 2025-11-12 at 06.35.16 (1).jpeg" alt="Agendamento">
+
+                            </div>
+
+                            <div class="produto-bolinhas">
+
+                                <span class="produto-bolinha ativa"></span>
+
+                                <span class="produto-bolinha "></span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="produto-info">
+
+                            <h3>Agendamento</h3>
+
+                            <div class="produto-stars">★★★★★</div>
+
+                            <div class="produto-preco">
+                                <span class="produto-moeda">R$</span>
+                                <span class="produto-valor">
+
+                                    103
+                                    <span class="centavos">,00</span>
+
+                                </span>
+
+                            </div>
+
+
+
+
+
+
+
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+                        </div>
+
+                    </div>
+                </a>
+
+
+
+
+
+
+
+
+
+
+
+
                 
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Agendamento" target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="caderno agenda salão manicure">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Caneca%20%2B%20Bloquinho%20A6%20com%20Capa%20em%20MDF%20Branco%20Gravada%20a%20Laser" target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="" data-indisponivel="false">
      <div class="produto">
 
         
 
 <div class="produto-favorito">♡</div>
 
-<div class="produto-galeria" data-imagens="WhatsApp Image 2025-11-12 at 06.34.46 (1).jpeg|WhatsApp Image 2025-11-12 at 06.35.16 (1).jpeg">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 15.07.54.jpeg">
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/WhatsApp Image 2025-11-12 at 06.34.46 (1).jpeg" alt="Agendamento">
-        
-            <img src="thumbs/WhatsApp Image 2025-11-12 at 06.35.16 (1).jpeg" alt="Agendamento">
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 15.07.54.jpeg" alt="Kit Caneca + Bloquinho A6 com Capa em MDF Branco Gravada a Laser">
         
     </div>
 
@@ -1003,15 +1153,13 @@
         
             <span class="produto-bolinha ativa"></span>
         
-            <span class="produto-bolinha "></span>
-        
     </div>
 
 </div>
 
 <div class="produto-info">
 
-            <h3>Agendamento</h3>
+            <h3>Kit Caneca + Bloquinho A6 com Capa em MDF Branco Gravada a Laser</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -1019,7 +1167,7 @@
               <span class="produto-moeda">R$</span>
               <span class="produto-valor">
                  
-        103
+        35
         <span class="centavos">,00</span>
     
                  </span>
@@ -1032,7 +1180,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -1050,57 +1198,69 @@
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Bloquinho%20A6%20em%20branco%20capa%20MDF"
-                    target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="">
-                    <div class="produto">
 
 
 
-                        <div class="produto-favorito">♡</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 15.07.54.jpeg">
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Bloquinho%20A6%20Branco%20Personalizado" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="cadernos e blocos" data-descricao="branco    em branco">
+     <div class="produto">
 
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 15.07.54.jpeg"
-                                alt="Bloquinho A6 em branco capa MDF">
+        
 
+<div class="produto-favorito">♡</div>
 
-                            <div class="produto-bolinhas">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-01-06 at 18.29.45.jpeg">
 
-                                <span class="produto-bolinha ativa"></span>
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-01-06 at 18.29.45.jpeg" alt="Bloquinho A6 Branco Personalizado">
+        
+    </div>
 
-                            </div>
-                        </div>
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
-                        <div class="produto-info">
+<div class="produto-info">
 
-                            <h3>Bloquinho A6 em branco capa MDF</h3>
+            <h3>Bloquinho A6 Branco Personalizado</h3>
 
-                            <div class="produto-stars">★★★★★</div>
+            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        24
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                                    25
-                                    <span class="centavos">,00</span>
+           
 
-                                </span>
+           
 
-                            </div>
+            
 
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
+    </div>
+</a>
 
 
 
 
-                            <span class="btn-comprar">Comprar</span>
 
-                        </div>
 
-                    </div>
-                </a>
 
 
 
@@ -1112,127 +1272,62 @@
 
 
 
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderninho%20A6%20Pautado%20Personalizado" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="cadernos e blocos" data-descricao="">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-01-06 at 18.32.28.jpeg">
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Bloquinho%20A6%20" target="_blank"
-                    class="produto-link" data-categoria="cadernos e blocos" data-descricao="branco    em branco">
-                    <div class="produto">
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-01-06 at 18.32.28.jpeg" alt="Caderninho A6 Pautado Personalizado">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
-                        <div class="produto-favorito">♡</div>
+<div class="produto-info">
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-01-06 at 18.29.45.jpeg">
+            <h3>Caderninho A6 Pautado Personalizado</h3>
 
-                            <img src="thumbs/WhatsApp Image 2026-01-06 at 18.29.45.jpeg" alt="Bloquinho A6">
+            <div class="produto-stars">★★★★★</div>
 
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        31
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                            <div class="produto-bolinhas">
+           
 
-                                <span class="produto-bolinha ativa"></span>
+           
 
-                            </div>
-                        </div>
+            
 
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
-                        <div class="produto-info">
+        </div>
 
-                            <h3>Bloquinho A6 </h3>
+    </div>
+</a>
 
-                            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
 
-                                    24
-                                    <span class="centavos">,00</span>
-
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Bloquinho%20A6%20com%20linha%20com%20linhas%20"
-                    target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-01-06 at 18.32.28.jpeg">
-
-                            <img src="thumbs/WhatsApp Image 2026-01-06 at 18.32.28.jpeg"
-                                alt="Bloquinho A6 com linha com linhas">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Bloquinho A6 com linha com linhas </h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-
-                                    31
-                                    <span class="centavos">,00</span>
-
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
 
 
 
@@ -1248,7 +1343,7 @@
 
                 
 
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderno%20A5%2097%20folhas" target="_blank" class="produto-link" data-categoria="cadernos e blocos" data-descricao="">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderno%20A5%2097%20folhas" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="cadernos e blocos" data-descricao="">
      <div class="produto">
 
         
@@ -1298,7 +1393,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -1315,102 +1410,62 @@
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20estampado%2Bcart%C3%A3o%2Bpingente"
-                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="">
-                    <div class="produto">
 
 
+                
 
-                        <div class="produto-favorito">♡</div>
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20Personalizado%20com%20Pingente%20e%20Cart%C3%A3o" target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="" data-indisponivel="false">
+     <div class="produto">
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 14.22.16 (4).jpeg">
+        
 
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 14.22.16 (4).jpeg"
-                                alt="Chaveiro estampado+cartão+pingente">
+<div class="produto-favorito">♡</div>
 
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 14.22.16 (4).jpeg">
 
-                            <div class="produto-bolinhas">
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 14.22.16 (4).jpeg" alt="Chaveiro Personalizado com Pingente e Cartão">
+        
+    </div>
 
-                                <span class="produto-bolinha ativa"></span>
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                            </div>
-                        </div>
+</div>
 
+<div class="produto-info">
 
-                        <div class="produto-info">
+            <h3>Chaveiro Personalizado com Pingente e Cartão</h3>
 
-                            <h3>Chaveiro estampado+cartão+pingente</h3>
+            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-stars">★★★★★</div>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        5
+        <span class="centavos">,50</span>
+    
+                 </span>
+              
+            </div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
+           
 
-                                    5
-                                    <span class="centavos">,50</span>
+           
 
-                                </span>
+            
 
-                            </div>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-
-
-
-
-
-
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20MDF%20estampado%2Bcart%C3%A3o"
-                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="IMG_20241031_192530.jpg">
-
-                            <img src="thumbs/IMG_20241031_192530.jpg" alt="Chaveiro MDF estampado+cartão">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Chaveiro MDF estampado+cartão</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-
-                                    4
-                                    <span class="centavos">,50</span>
-
-                                </span>
-
-                            </div>
+    </div>
+</a>
 
 
 
@@ -1418,12 +1473,63 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
 
-                        </div>
 
-                    </div>
-                </a>
+
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20Personalizado%20com%20Cart%C3%A3o%20" target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
+        
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="IMG_20241031_192530.jpg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/IMG_20241031_192530.jpg" alt="Chaveiro Personalizado com Cartão ">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Chaveiro Personalizado com Cartão </h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        4
+        <span class="centavos">,50</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
 
 
 
@@ -1433,7 +1539,7 @@
 
 
                 <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20MDF%20estampado"
-                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="">
+                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="" data-indisponivel="false">
                     <div class="produto">
 
 
@@ -1476,7 +1582,7 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
 
                         </div>
 
@@ -1492,7 +1598,7 @@
 
 
                 <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20MDF%20branco%2C%20gravado"
-                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="">
+                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="" data-indisponivel="false">
                     <div class="produto">
 
 
@@ -1536,7 +1642,7 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
 
                         </div>
 
@@ -1552,7 +1658,7 @@
 
 
                 <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20MDF%20cru" target="_blank"
-                    class="produto-link" data-categoria="chaveiros" data-descricao="">
+                    class="produto-link" data-categoria="chaveiros" data-descricao="" data-indisponivel="false">
                     <div class="produto">
 
 
@@ -1595,7 +1701,7 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
 
                         </div>
 
@@ -1609,44 +1715,60 @@
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20abridor%20de%20metal"
-                    target="_blank" class="produto-link" data-categoria="chaveiros" data-descricao="">
-                    <div class="produto">
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Chaveiro%20Abridor%20de%20Metal" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="chaveiros" data-descricao="">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
-                        <div class="produto-favorito">♡</div>
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 16.38.391.jpeg">
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 16.38.391.jpeg">
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 16.38.391.jpeg" alt="Chaveiro Abridor de Metal">
+        
+    </div>
 
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 16.38.391.jpeg"
-                                alt="Chaveiro abridor de metal">
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
-                            <div class="produto-bolinhas">
+<div class="produto-info">
 
-                                <span class="produto-bolinha ativa"></span>
+            <h3>Chaveiro Abridor de Metal</h3>
 
-                            </div>
-                        </div>
+            <div class="produto-stars">★★★★★</div>
 
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        10
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                        <div class="produto-info">
+           
 
-                            <h3>Chaveiro abridor de metal</h3>
+           
 
-                            <div class="produto-stars">★★★★★</div>
+            
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
-                                    10
-                                    <span class="centavos">,00</span>
+        </div>
 
-                                </span>
+    </div>
+</a>
 
-                            </div>
 
 
 
@@ -1654,179 +1776,143 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
 
-                        </div>
+                
 
-                    </div>
-                </a>
 
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderneta%20de%20Vacina%C3%A7%C3%A3o%20Personalizada" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="cadernos e blocos" data-descricao="">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
+<div class="produto-galeria" data-imagens="IMG_20250728_154612.jpg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/IMG_20250728_154612.jpg" alt="Caderneta de Vacinação Personalizada">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
+</div>
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderneta%20de%20vacina" target="_blank"
-                    class="produto-link" data-categoria="cadernos e blocos" data-descricao="">
-                    <div class="produto">
+<div class="produto-info">
 
+            <h3>Caderneta de Vacinação Personalizada</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
-                        <div class="produto-favorito">♡</div>
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        57
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
-                        <div class="produto-galeria" data-imagens="IMG_20250728_154612.jpg">
+           
 
-                            <img src="thumbs/IMG_20250728_154612.jpg" alt="Caderneta de vacina">
+           
 
+            
 
-                            <div class="produto-bolinhas">
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
-                                <span class="produto-bolinha ativa"></span>
+        </div>
 
-                            </div>
-                        </div>
+    </div>
+</a>
 
 
-                        <div class="produto-info">
 
-                            <h3>Caderneta de vacina</h3>
 
-                            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
 
-                                    57
-                                    <span class="centavos">,00</span>
 
-                                </span>
 
-                            </div>
 
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderno%20atividades" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="cadernos e blocos" data-descricao="">
+     <div class="produto">
 
+        
 
+<div class="produto-favorito">♡</div>
 
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-24 at 12.18.24kk.jpeg">
 
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-09-24 at 12.18.24kk.jpeg" alt="Caderno atividades">
+        
+    </div>
 
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
 
-                            <span class="btn-comprar">Comprar</span>
+</div>
 
-                        </div>
+<div class="produto-info">
 
-                    </div>
-                </a>
+            <h3>Caderno atividades</h3>
 
+            <div class="produto-stars">★★★★★</div>
 
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        49
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
 
+           
 
+           
 
+            
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caderno%20atividades" target="_blank"
-                    class="produto-link" data-categoria="cadernos e blocos" data-descricao="">
-                    <div class="produto">
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
+        </div>
 
+    </div>
+</a>
 
-                        <div class="produto-favorito">♡</div>
 
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-09-24 at 12.18.24kk.jpeg">
 
-                            <img src="thumbs/WhatsApp Image 2025-09-24 at 12.18.24kk.jpeg" alt="Caderno atividades">
 
 
-                            <div class="produto-bolinhas">
+                
 
-                                <span class="produto-bolinha ativa"></span>
 
-                            </div>
-                        </div>
 
 
-                        <div class="produto-info">
 
-                            <h3>Caderno atividades</h3>
 
-                            <div class="produto-stars">★★★★★</div>
 
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
 
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-
-
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Body%20tecido%20poliestr" target="_blank"
-                    class="produto-link" data-categoria="textil" data-descricao="">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="1751063443967-Photoroom.jpg">
-
-                            <img src="thumbs/1751063443967-Photoroom.jpg" alt="Body tecido poliestr">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Body tecido poliestr</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
 
 
 
                 <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Toalhinha%20algod%C3%A3o%2C%2030x50cm"
-                    target="_blank" class="produto-link" data-descricao="" data-categoria="textil">
+                    target="_blank" class="produto-link" data-descricao="" data-categoria="textil" data-indisponivel="false">
                     <div class="produto">
 
 
@@ -1866,55 +1952,7 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneta%20de%20metal%2C%20gravada"
-                    target="_blank" class="produto-link" data-descricao="" data-categoria="cadernos e blocos">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2025-08-13 at 12.54.25.jpeg">
-
-                            <img src="thumbs/WhatsApp Image 2025-08-13 at 12.54.25.jpeg" alt="Caneta de metal, gravada">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Caneta de metal, gravada</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    15
-                                    <span class="centavos">,00</span>
-                                </span>
-
-                            </div>
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
 
                         </div>
 
@@ -1923,21 +1961,80 @@
 
 
                 
-
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20kit%2C%20caixa%20convite%201%20xicara" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneta%20de%20Metal%20com%20Grava%C3%A7%C3%A3o%20Laser" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="cadernos e blocos" data-descricao="">
      <div class="produto">
 
         
 
 <div class="produto-favorito">♡</div>
 
-<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 17.14.37.jpeg|WhatsApp Image 2026-05-14 at 10.59.56 (1).jpeg">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-08-13 at 12.54.25.jpeg">
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.14.37.jpeg" alt="kit, caixa convite 1 xicara">
+            <img src="thumbs/WhatsApp Image 2025-08-13 at 12.54.25.jpeg" alt="Caneta de Metal com Gravação Laser">
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.59.56 (1).jpeg" alt="kit, caixa convite 1 xicara">
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Caneta de Metal com Gravação Laser</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        15
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+
+
+
+
+                
+
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Caixa%20para%20Padrinhos%20com%201%20X%C3%ADcara%20Personalizada" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
+        
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-03-27 at 12.40.38.jpeg|WhatsApp Image 2026-05-05 at 17.14.37.jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2025-03-27 at 12.40.38.jpeg" alt="Kit Caixa para Padrinhos com 1 Xícara Personalizada">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.14.37.jpeg" alt="Kit Caixa para Padrinhos com 1 Xícara Personalizada">
         
     </div>
 
@@ -1953,7 +2050,7 @@
 
 <div class="produto-info">
 
-            <h3>kit, caixa convite 1 xicara</h3>
+            <h3>Kit Caixa para Padrinhos com 1 Xícara Personalizada</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -1974,7 +2071,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -1984,24 +2081,32 @@
 
 
 
+
+
+
+
+
+
+
                 
 
 
 
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20kit%20caixa%20convite%202%20xicara" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="">
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Caixa%20para%20Padrinhos%20com%202%20X%C3%ADcara%20Personalizada" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
      <div class="produto">
 
         
 
 <div class="produto-favorito">♡</div>
 
-<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-14 at 10.56.29.jpeg|WhatsApp Image 2026-05-14 at 10.56.28.jpeg">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2025-07-27 at 09.09.53.jpeg|WhatsApp Image 2026-05-14 at 10.56.29.jpeg">
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.29.jpeg" alt="kit caixa convite 2 xicara">
+            <img src="thumbs/WhatsApp Image 2025-07-27 at 09.09.53.jpeg" alt="Kit Caixa para Padrinhos com 2 Xícara Personalizada">
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.28.jpeg" alt="kit caixa convite 2 xicara">
+            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.29.jpeg" alt="Kit Caixa para Padrinhos com 2 Xícara Personalizada">
         
     </div>
 
@@ -2017,7 +2122,7 @@
 
 <div class="produto-info">
 
-            <h3>kit caixa convite 2 xicara</h3>
+            <h3>Kit Caixa para Padrinhos com 2 Xícara Personalizada</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -2038,7 +2143,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -2050,8 +2155,13 @@
 
 
 
+
+
+
+
+
                 <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20kit%20com%20bloco%20A6%2Bcaneta%2Bcopo%20termico%2Bchaveiro"
-                    target="_blank" class="produto-link" data-descricao="" data-categoria="kits e presentes">
+                    target="_blank" class="produto-link" data-descricao="" data-categoria="kits e presentes" data-indisponivel="false">
                     <div class="produto">
 
 
@@ -2091,7 +2201,7 @@
 
 
 
-                            <span class="btn-comprar">Comprar</span>
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
 
                         </div>
 
@@ -2099,128 +2209,138 @@
                 </a>
 
 
+
+                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20kit%2C%20copo%20termico%2C%20chaveiro%2C%20placa%20de%20homenagem"
+                    target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
+                    <div class="produto">
+
+
+
+                        <div class="produto-favorito">♡</div>
+
+                        <div class="produto-galeria"
+                            data-imagens="WhatsApp Image 2025-11-19 at 14.20.48.jpeg|WhatsApp Image 2026-05-14 at 11.08.53 (1).jpeg">
+
+                            <div class="produto-galeria-imagens">
+
+                                <img src="thumbs/WhatsApp Image 2025-11-19 at 14.20.48.jpeg"
+                                    alt="kit, copo termico, chaveiro, placa de homenagem">
+
+                                <img src="thumbs/WhatsApp Image 2026-05-14 at 11.08.53 (1).jpeg"
+                                    alt="kit, copo termico, chaveiro, placa de homenagem">
+
+                            </div>
+
+                            <div class="produto-bolinhas">
+
+                                <span class="produto-bolinha ativa"></span>
+
+                                <span class="produto-bolinha "></span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="produto-info">
+
+                            <h3>kit, copo termico, chaveiro, placa de homenagem</h3>
+
+                            <div class="produto-stars">★★★★★</div>
+
+                            <div class="produto-preco">
+                                <span class="produto-moeda">R$</span>
+                                <span class="produto-valor">
+
+                                    85
+                                    <span class="centavos">,00</span>
+
+                                </span>
+
+                            </div>
+
+
+
+
+
+
+
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+                        </div>
+
+                    </div>
+                </a>
+
+
+
+
+                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%2C%20bloquinho%20A6%20e%20caneta%20de%20metal"
+                    target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
+                    <div class="produto">
+
+
+
+                        <div class="produto-favorito">♡</div>
+
+                        <div class="produto-galeria"
+                            data-imagens="WhatsApp Image 2025-11-19 at 14.20.49.jpeg|WhatsApp Image 2026-05-14 at 11.08.53.jpeg">
+
+                            <div class="produto-galeria-imagens">
+
+                                <img src="thumbs/WhatsApp Image 2025-11-19 at 14.20.49.jpeg"
+                                    alt="Kit, bloquinho A6 e caneta de metal">
+
+                                <img src="thumbs/WhatsApp Image 2026-05-14 at 11.08.53.jpeg"
+                                    alt="Kit, bloquinho A6 e caneta de metal">
+
+                            </div>
+
+                            <div class="produto-bolinhas">
+
+                                <span class="produto-bolinha ativa"></span>
+
+                                <span class="produto-bolinha "></span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="produto-info">
+
+                            <h3>Kit, bloquinho A6 e caneta de metal</h3>
+
+                            <div class="produto-stars">★★★★★</div>
+
+                            <div class="produto-preco">
+                                <span class="produto-moeda">R$</span>
+                                <span class="produto-valor">
+
+                                    74
+                                    <span class="centavos">,00</span>
+
+                                </span>
+
+                            </div>
+
+
+
+
+
+
+
+                            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+                        </div>
+
+                    </div>
+                </a>
+
+
+
+
                 
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20kit%2C%20copo%20termico%2C%20chaveiro%2C%20placa%20de%20homenagem" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="">
-     <div class="produto">
 
-        
-
-<div class="produto-favorito">♡</div>
-
-<div class="produto-galeria" data-imagens="WhatsApp Image 2025-11-19 at 14.20.48.jpeg|WhatsApp Image 2026-05-14 at 11.08.53 (1).jpeg">
-
-    <div class="produto-galeria-imagens">
-        
-            <img src="thumbs/WhatsApp Image 2025-11-19 at 14.20.48.jpeg" alt="kit, copo termico, chaveiro, placa de homenagem">
-        
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 11.08.53 (1).jpeg" alt="kit, copo termico, chaveiro, placa de homenagem">
-        
-    </div>
-
-    <div class="produto-bolinhas">
-        
-            <span class="produto-bolinha ativa"></span>
-        
-            <span class="produto-bolinha "></span>
-        
-    </div>
-
-</div>
-
-<div class="produto-info">
-
-            <h3>kit, copo termico, chaveiro, placa de homenagem</h3>
-
-            <div class="produto-stars">★★★★★</div>
-
-            <div class="produto-preco">
-              <span class="produto-moeda">R$</span>
-              <span class="produto-valor">
-                 
-        85
-        <span class="centavos">,00</span>
-    
-                 </span>
-              
-            </div>
-
-           
-
-           
-
-            
-
-            <span class="btn-comprar">Comprar</span>
-
-        </div>
-
-    </div>
-</a>
-
-
-
-                
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%2C%20bloquinho%20A6%20e%20caneta%20de%20metal" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="">
-     <div class="produto">
-
-        
-
-<div class="produto-favorito">♡</div>
-
-<div class="produto-galeria" data-imagens="WhatsApp Image 2025-11-19 at 14.20.49.jpeg|WhatsApp Image 2026-05-14 at 11.08.53.jpeg">
-
-    <div class="produto-galeria-imagens">
-        
-            <img src="thumbs/WhatsApp Image 2025-11-19 at 14.20.49.jpeg" alt="Kit, bloquinho A6 e caneta de metal">
-        
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 11.08.53.jpeg" alt="Kit, bloquinho A6 e caneta de metal">
-        
-    </div>
-
-    <div class="produto-bolinhas">
-        
-            <span class="produto-bolinha ativa"></span>
-        
-            <span class="produto-bolinha "></span>
-        
-    </div>
-
-</div>
-
-<div class="produto-info">
-
-            <h3>Kit, bloquinho A6 e caneta de metal</h3>
-
-            <div class="produto-stars">★★★★★</div>
-
-            <div class="produto-preco">
-              <span class="produto-moeda">R$</span>
-              <span class="produto-valor">
-                 
-        74
-        <span class="centavos">,00</span>
-    
-                 </span>
-              
-            </div>
-
-           
-
-           
-
-            
-
-            <span class="btn-comprar">Comprar</span>
-
-        </div>
-
-    </div>
-</a>
-
-
-
-                
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%2C%20caneca%20imperial%20com%20caixa" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20aneca%20Imperial%20Personalizada%20com%20Caixa%20Presente" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="kits e presentes" data-descricao="">
      <div class="produto">
 
         
@@ -2231,9 +2351,9 @@
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/01.jpg" alt="Kit, caneca imperial com caixa">
+            <img src="thumbs/01.jpg" alt="aneca Imperial Personalizada com Caixa Presente">
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.24.jpeg" alt="Kit, caneca imperial com caixa">
+            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.24.jpeg" alt="aneca Imperial Personalizada com Caixa Presente">
         
     </div>
 
@@ -2249,7 +2369,7 @@
 
 <div class="produto-info">
 
-            <h3>Kit, caneca imperial com caixa</h3>
+            <h3>aneca Imperial Personalizada com Caixa Presente</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -2270,7 +2390,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -2279,77 +2399,84 @@
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%2C%20Quadro%20cer%C3%A2mico%20com%20caixa%20mdf%2C%20com%20espa%C3%A7o%20para%20doces"
-                    target="_blank" class="produto-link" data-descricao="" data-categoria="kits e presentes">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 17.19.37 (1).jpeg">
-
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.19.37 (1).jpeg"
-                                alt="Kit, Quadro cerâmico com caixa mdf, com espaço para doces">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Kit, Quadro cerâmico com caixa mdf, com espaço para doces</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    51
-                                    <span class="centavos">,00</span>
-                                </span>
-
-                            </div>
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
 
 
                 
-
-<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%2C%20caneca%20com%20caixa%20mdf%20e%20placa%20homenagem" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="">
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Quadro%20Cer%C3%A2mico%20com%20Caixa%20MDF%20e%20Espa%C3%A7o%20para%20Doces" target="_blank" class="produto-link" data-indisponivel="false" data-categoria="kits e presentes" data-descricao="">
      <div class="produto">
 
         
 
 <div class="produto-favorito">♡</div>
 
-<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 17.19.36 (2).jpeg|WhatsApp Image 2026-05-14 at 11.05.03.jpeg|WhatsApp Image 2026-05-14 at 10.56.27.jpeg|WhatsApp Image 2026-05-14 at 10.56.29 (1).jpeg|WhatsApp Image 2026-05-14 at 10.56.29 (2).jpeg">
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 17.19.37 (1).jpeg">
 
     <div class="produto-galeria-imagens">
         
-            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.19.36 (2).jpeg" alt="Kit, caneca com caixa mdf e placa homenagem">
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.19.37 (1).jpeg" alt="Kit Quadro Cerâmico com Caixa MDF e Espaço para Doces">
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 11.05.03.jpeg" alt="Kit, caneca com caixa mdf e placa homenagem">
+    </div>
+
+    <div class="produto-bolinhas">
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.27.jpeg" alt="Kit, caneca com caixa mdf e placa homenagem">
+            <span class="produto-bolinha ativa"></span>
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.29 (1).jpeg" alt="Kit, caneca com caixa mdf e placa homenagem">
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Kit Quadro Cerâmico com Caixa MDF e Espaço para Doces</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        51
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+
+
+
+
+                
+
+
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Caneca%20Personalizada%20com%20Caixa%20em%20MDF%20e%20Placa%20de%20Homenagem" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
         
-            <img src="thumbs/WhatsApp Image 2026-05-14 at 10.56.29 (2).jpeg" alt="Kit, caneca com caixa mdf e placa homenagem">
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-14 at 11.05.03.jpeg|WhatsApp Image 2026-05-05 at 17.19.36 (2).jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-14 at 11.05.03.jpeg" alt="Kit Caneca Personalizada com Caixa em MDF e Placa de Homenagem">
+        
+            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.19.36 (2).jpeg" alt="Kit Caneca Personalizada com Caixa em MDF e Placa de Homenagem">
         
     </div>
 
@@ -2359,19 +2486,13 @@
         
             <span class="produto-bolinha "></span>
         
-            <span class="produto-bolinha "></span>
-        
-            <span class="produto-bolinha "></span>
-        
-            <span class="produto-bolinha "></span>
-        
     </div>
 
 </div>
 
 <div class="produto-info">
 
-            <h3>Kit, caneca com caixa mdf e placa homenagem</h3>
+            <h3>Kit Caneca Personalizada com Caixa em MDF e Placa de Homenagem</h3>
 
             <div class="produto-stars">★★★★★</div>
 
@@ -2392,7 +2513,7 @@
 
             
 
-            <span class="btn-comprar">Comprar</span>
+            <span class="btn-comprar">Pedir no WhatsApp</span>
 
         </div>
 
@@ -2402,107 +2523,71 @@
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20kit%2C%20caneca%20e%20caixa%20com%20gaveta"
-                    target="_blank" class="produto-link" data-descricao="" data-categoria="kits e presentes">
-                    <div class="produto">
-
-
-
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="WhatsApp Image 2026-05-05 at 17.19.37.jpeg">
-
-                            <img src="thumbs/WhatsApp Image 2026-05-05 at 17.19.37.jpeg"
-                                alt="kit, caneca e caixa com gaveta">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>kit, caneca e caixa com gaveta</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-                                    70
-                                    <span class="centavos">,00</span>
-                                </span>
-
-                            </div>
 
 
 
 
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
+                
 
 
 
 
-                <a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneca%20imperial%20branca%20com%20dourado"
-                    target="_blank" class="produto-link" data-categoria="copos" data-descricao="">
-                    <div class="produto">
+                
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caneca%20imperial%20branca%20com%20dourado" target="_blank" class="produto-link" data-categoria="copos" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
+        
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="IMG_1465.jpg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/IMG_1465.jpg" alt="Caneca imperial branca com dourado">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Caneca imperial branca com dourado</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        81
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
 
 
 
-                        <div class="produto-favorito">♡</div>
-
-                        <div class="produto-galeria" data-imagens="IMG_1465.jpg">
-
-                            <img src="thumbs/IMG_1465.jpg" alt="Caneca imperial branca com dourado">
-
-
-                            <div class="produto-bolinhas">
-
-                                <span class="produto-bolinha ativa"></span>
-
-                            </div>
-                        </div>
-
-
-                        <div class="produto-info">
-
-                            <h3>Caneca imperial branca com dourado</h3>
-
-                            <div class="produto-stars">★★★★★</div>
-
-                            <div class="produto-preco">
-                                <span class="produto-moeda">R$</span>
-                                <span class="produto-valor">
-
-                                    81
-                                    <span class="centavos">,00</span>
-
-                                </span>
-
-                            </div>
-
-
-
-
-
-
-
-                            <span class="btn-comprar">Comprar</span>
-
-                        </div>
-
-                    </div>
-                </a>
 
 
 
@@ -2566,7 +2651,348 @@
 
                 
 
-                <!-- PRODUTOS AQUI -->
+
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Caixa%20Envelope%20em%20MDF%2015%2C5x60x15cm" target="_blank" class="produto-link" data-categoria="embalagens" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
+        
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-06-01 at 14.44.57.jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.57.jpeg" alt="Caixa Envelope em MDF 15,5x60x15cm">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Caixa Envelope em MDF 15,5x60x15cm</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        22
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+
+
+
+        
+
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Envelope%20com%20Quadro%20MDF%2C%20Chaveiro%20de%20Urso%20e%20Bombons" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
+        
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-06-01 at 14.44.571.jpeg|WhatsApp Image 2026-06-01 at 14.44.572.jpg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.571.jpeg" alt="Kit Envelope com Quadro MDF, Chaveiro de Urso e Bombons">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.572.jpg" alt="Kit Envelope com Quadro MDF, Chaveiro de Urso e Bombons">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+            <span class="produto-bolinha "></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Kit Envelope com Quadro MDF, Chaveiro de Urso e Bombons</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        68
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+
+
+        
+
+
+
+
+
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Kit%20Caixa%20Cartonada%20com%20Caneca%2C%20Chaveiro%20de%20Urso%20e%20Chaveiro%20Abridor" target="_blank" class="produto-link" data-categoria="kits e presentes" data-descricao="" data-indisponivel="false">
+     <div class="produto">
+
+        
+
+<div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-06-01 at 14.44.582.jpeg|WhatsApp Image 2026-06-01 at 14.44.58.jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.582.jpeg" alt="Kit Caixa Cartonada com Caneca, Chaveiro de Urso e Chaveiro Abridor">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.58.jpeg" alt="Kit Caixa Cartonada com Caneca, Chaveiro de Urso e Chaveiro Abridor">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+            <span class="produto-bolinha "></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Kit Caixa Cartonada com Caneca, Chaveiro de Urso e Chaveiro Abridor</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 
+        150
+        <span class="centavos">,00</span>
+    
+                 </span>
+              
+            </div>
+
+           
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+
+
+
+
+
+        
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20Decorativa%20com%20Acabamento%20Preto%20Fosco%20-%2023x18cm" target="_blank" class="produto-link"
+   data-descricao="" data-categoria="quadros e placas" data-indisponivel="false">
+    <div class="produto">
+
+        
+
+        <div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-06-01 at 14.44.584.jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.584.jpeg" alt="Placa Decorativa com Acabamento Preto Fosco - 23x18cm">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Placa Decorativa com Acabamento Preto Fosco - 23x18cm</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 35
+                 <span class="centavos">,00</span>
+              </span>
+              
+            </div>
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+        
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Quadro%20Decorativo%20Em%20MDF%20Branco%20-%2017x13cm" target="_blank" class="produto-link"
+   data-descricao="" data-categoria="quadros e placas" data-indisponivel="false">
+    <div class="produto">
+
+        
+
+        <div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-06-01 at 14.44.585.jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 14.44.585.jpeg" alt="Quadro Decorativo Em MDF Branco - 17x13cm">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Quadro Decorativo Em MDF Branco - 17x13cm</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 15
+                 <span class="centavos">,00</span>
+              </span>
+              
+            </div>
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+        
+<a href="https://wa.me/557499641627?text=Quero%20o%20produto%20Placa%20Pix%20duplo%2018x15cm" target="_blank" class="produto-link" data-indisponivel="false"
+   data-descricao="" data-categoria="quadros e placas">
+    <div class="produto">
+
+        
+
+        <div class="produto-favorito">♡</div>
+
+<div class="produto-galeria" data-imagens="WhatsApp Image 2026-06-01 at 17.47.20.jpeg">
+
+    <div class="produto-galeria-imagens">
+        
+            <img src="thumbs/WhatsApp Image 2026-06-01 at 17.47.20.jpeg" alt="Placa Pix duplo 18x15cm">
+        
+    </div>
+
+    <div class="produto-bolinhas">
+        
+            <span class="produto-bolinha ativa"></span>
+        
+    </div>
+
+</div>
+
+<div class="produto-info">
+
+            <h3>Placa Pix duplo 18x15cm</h3>
+
+            <div class="produto-stars">★★★★★</div>
+
+            <div class="produto-preco">
+              <span class="produto-moeda">R$</span>
+              <span class="produto-valor">
+                 20
+                 <span class="centavos">,00</span>
+              </span>
+              
+            </div>
+
+           
+
+            
+
+            <span class="btn-comprar">Pedir no WhatsApp</span>
+
+        </div>
+
+    </div>
+</a>
+
+        <!-- PRODUTOS AQUI -->
 
             </div>
 
@@ -3031,19 +3457,6 @@
     </script>
 
     <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById("navLinks");
-            const navToggle = document.getElementById("navToggle");
-
-            if (!navLinks || !navToggle) return;
-
-            const open = navLinks.classList.toggle("open");
-            navToggle.classList.toggle("active", open);
-            document.body.style.overflow = open ? "hidden" : "";
-        }
-    </script>
-
-    <script>
         function filtrarCategoria(categoria) {
 
             const categoriaFiltro = categoria.trim().toLowerCase();
@@ -3051,55 +3464,24 @@
 
             produtos.forEach(produto => {
 
-                const cat = (produto.dataset.categoria || "todos")
+                const categoriasProduto = (produto.dataset.categoria || "todos")
                     .trim()
-                    .toLowerCase();
+                    .toLowerCase()
+                    .split("|")
+                    .map(cat => cat.trim());
 
                 produto.style.display =
-                    categoriaFiltro === "todos" || cat === categoriaFiltro
+                    categoriaFiltro === "todos" || categoriasProduto.includes(categoriaFiltro)
                         ? "block"
                         : "none";
             });
 
-            const navLinks = document.getElementById("navLinks");
-            const navToggle = document.getElementById("navToggle");
-
-            navLinks.classList.remove("open");
-            navToggle.classList.remove("active");
-
+            fecharMenuCategorias();
         }
     </script>
 
     <script>
-        async function carregarMenuCategorias() {
-
-            const res = await fetch("/api/categorias");
-            const categorias = await res.json();
-
-            const menu = document.getElementById("navLinks");
-
-            categorias.forEach(cat => {
-
-                const li = document.createElement("li");
-
-                const categoriaFormatada = cat.trim().toLowerCase();
-
-                li.innerHTML = `
-            <a href="#" onclick="filtrarCategoria('${categoriaFormatada}'); fecharMenuCategorias(event)">
-                ${cat}
-            </a>
-        `;
-
-                menu.appendChild(li);
-            });
-
-        }
-
-        carregarMenuCategorias();
-    </script>
-
-    <script>
-        const inputBusca = document.getElementById("buscarProduto");
+        const inputBusca = document.getElementById("buscarProdutoPagina");
         const inputBuscaNav = document.getElementById("buscarProdutoNav");
 
         function filtrarBusca(valor) {
@@ -3220,6 +3602,32 @@
     </script>
 
     <script>
+        function atualizarTodosProdutosExistentes() {
+            if (!confirm('Deseja atualizar todos os produtos existentes agora?')) {
+                return;
+            }
+
+            fetch('/corrigir-produtos-antigos', {
+                method: 'POST'
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sucesso) {
+                        alert(`Produtos atualizados: ${data.corrigidos} de ${data.total}`);
+                        window.location.reload();
+                    } else {
+                        console.error('Erro ao atualizar produtos:', data);
+                        alert('Erro ao atualizar produtos. Veja o console para mais detalhes.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Falha na requisição:', error);
+                    alert('Falha na requisição ao atualizar produtos. Veja o console.');
+                });
+        }
+    </script>
+
+    <script>
         const navToggle = document.getElementById("navToggle");
         const navLinks = document.getElementById("navLinks");
 
@@ -3234,6 +3642,25 @@
                 document.documentElement.style.overflow = aberto ? "hidden" : "";
             });
         }
+
+        function mostrarTooltipFiltro() {
+            const tooltip = document.getElementById("tooltipFiltro");
+            if (!tooltip) return;
+            tooltip.style.display = "block";
+        }
+
+        function fecharTooltipFiltro() {
+            const tooltip = document.getElementById("tooltipFiltro");
+            if (!tooltip) return;
+            tooltip.style.display = "none";
+            localStorage.setItem("tooltipFiltroFechado", "true");
+        }
+
+        window.addEventListener("load", function () {
+            if (!localStorage.getItem("tooltipFiltroFechado")) {
+                setTimeout(mostrarTooltipFiltro, 500);
+            }
+        });
     </script>
 
 </body>
